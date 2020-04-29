@@ -1,2 +1,2 @@
 # hello-kevin
-UI/UX personal site
+This is my personal site as a UI/UX designer, built simply in just html and css.
