@@ -1,0 +1,261 @@
+@charset "UTF-8";
+
+body {
+	margin: 0px;
+	background-color: #ffeffe;
+}
+
+.main {
+	font-family: 'Be Vietnam', sans-serif;
+	max-width: 960px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	background-color: #ffeffe;
+}
+
+.lead {
+	font-family: 'Be Vietnam', sans-serif;
+	margin-left: 20%;
+	margin-right: 20%;
+	max-width: 960px;
+	margin-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+	.lead	{
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-top: 70px;
+	}
+}
+
+.panel-blue {
+	font-family: 'Be Vietnam', sans-serif;
+	padding: 5% 7%;
+	background-color: #0031B7;
+	border-radius: 15px;
+	box-shadow: 0px 45px 45px -20px rgba(0, 49, 183, 0.5);
+	margin-top: 70px;
+}
+
+h1 {
+	font-family: 'EB Garamond', serif;
+	font-weight: 800;
+	letter-spacing: -0.02em;
+	font-size: 4.4em;
+	line-height: 100%;
+	margin-bottom: 1.1em;
+	color: #0031B7;
+}
+
+@media screen and (max-width: 800px) {
+	h1	{
+		font-size: 3.4em;
+	}
+}
+
+h2 {
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 600;
+	letter-spacing: -0.02em;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	margin-top: 0;
+	margin-bottom: 20px;
+	color: #0031B7;
+}
+
+@media screen and (max-width: 800px) {
+	h2	{
+		font-weight: 400;
+		font-size: 1.4em;
+		text-align: center;
+	}
+}
+
+.white-h2 {
+	color: #fff;
+	letter-spacing: -0.02em;
+}
+
+h3 {
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 600;
+	letter-spacing: -0.01em;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	color: #0031B7;
+}
+
+p {
+	font-family: 'Be Vietnam', sans-serif;
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	font-size: 1.1em;
+	line-height: 160%;
+	margin-top: 0px;
+	color: #202020;
+}
+
+.white-p {
+	color: #fff;
+}
+
+label {
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	font-size: 1em;
+	line-height: 120%;
+	margin-top: 0px;
+}
+
+.footer {
+	font-family: 'Be Vietnam', sans-serif;
+	color: grey;
+	margin-top: 50px;
+	margin-bottom: 70px;
+	max-width: 1140px;
+}
+
+img {
+	background-color: #fff;
+	margin-left: 0;
+}
+
+.button {
+	font-weight: 600;
+  background-color: #0031B7;
+  border: none;
+  color: white;
+	padding: 18px 30px 20px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
+  cursor: pointer;
+	border-radius: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+@media screen and (max-width: 800px) {
+	.button	{
+		padding: 5%;
+		display: block;
+		vertical-align: middle;
+	}
+}
+
+.button:hover {
+  background-color: #003AC2;
+  color: white;
+	text-decoration: underline;
+	border: 0px solid #fff;
+}
+
+.button-white {
+  background-color: white;
+  color: #0031B7;
+}
+
+@media screen and (max-width: 900px) {
+	.button-white	{
+		padding: 5%;
+		display: block;
+	}
+}
+
+.button-white:hover {
+  background-color: pink;
+}
+
+hr {
+  border-style: solid;
+  border-color: #0031B7;
+  border-width: 1px;
+  width: 100%;
+	margin-top: 80px;
+}
+
+.hr-short {
+  width: 15%;
+}
+
+.avatar {
+	border-radius: 50%;
+	min-width: 70px;
+	width: 70px;
+	height: auto;
+	box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+}
+
+.column {
+  flex: 50%;
+  padding: 0px;
+	max-width: 100%;
+}
+
+.row {
+  display: table;
+	display: flex;
+  flex-direction: row;
+}
+
+a {
+	color: #0031B7;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #003AC2;
+}
+
+.a-white {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.a-white:hover {
+	color: pink;
+}
+
+.border {
+	position: relative;
+	top: 0;
+	left: 0;
+	border: 30px solid #0031B7;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100vh;
+	position: fixed;
+	pointer-events: none;
+}
+
+@media screen and (max-width: 800px) {
+	.border	{
+		border: 20px solid #0031B7
+	}
+}
+
+ul {
+	list-style-type: circle;
+}
+
+li {
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin-top: 0px;
+	color: #000;
+	padding-top: 10px;
+}
