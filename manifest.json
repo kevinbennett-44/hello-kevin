@@ -1,0 +1,11 @@
+{
+    "name": "Kevin Bennett",
+    "short_name": "Kevin Bennett",
+    "icons": [{
+        "src": "google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#ffeffe",
+    "theme_color": "#ffeffe",
+    "display": "fullscreen"
+}
