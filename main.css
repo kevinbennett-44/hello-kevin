@@ -38,6 +38,14 @@ body {
 	margin-top: 70px;
 }
 
+.primary-color {
+	color: #0031B7;
+}
+
+.secondary-color {
+	color: #ffeffe;
+}
+
 h1 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 800;
@@ -214,6 +222,7 @@ a {
 a:hover {
 	text-decoration: underline;
 	color: #003AC2;
+	cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3174/cursor.png), default !important;
 }
 
 .a-white {
