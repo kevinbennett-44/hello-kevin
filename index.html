@@ -5,12 +5,26 @@
 <meta content="width=device-width, initial-scale=1" name="viewport" />
 <meta name="theme-color" content="#ffeffe">
 <title>Kevin Bennett</title>
-<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600;700&family=EB+Garamond:wght@400;800&display=swap" rel="stylesheet">
-<link href="main.css" rel="stylesheet" type="text/css">
 <link rel="icon" href="favicon.svg">
 <link rel="mask-icon" href="mask-icon.svg" color="#0031B7">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="manifest" href="manifest.json">
+<script src="https://kit.fontawesome.com/1877932030.js" crossorigin="anonymous"></script>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="main.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600;700&family=EB+Garamond:wght@400;800&display=swap" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<!-- favicon -->
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
     <style>
         path {
@@ -27,33 +41,161 @@
 </head>
 
 <body>
-<div class="border"></div>
+<!--<div class="blue-border"></div>-->
 
-<div class="lead">
-	<div>
+<div class="main">
+
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <a class="navbar-brand" href="file:///Users/kevin.bennett/Documents/GitHub/kevinbennett-44.github.io/index.html">&nbsp;Kevin Bennett&nbsp;</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#Work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Playbook">Playbook</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <!-- HEADER SECTION -->
+  <section class="lead">
 		<img class="avatar" src="assets/kevin-bennett.png" >
 		<h1>Hello.<br>My name is Kevin.</h1>
+
+	   <div class="hr-short"><hr /></div>
+
+     <div class="col">
+		      <p>I'm a Digital Product and UI Designer – creating digital experiences that are intuitive for real people and making complex processes easy to use.</p>
+          <p>Right now, I'm Design Lead at <a href="https://www.holidayextras.co.uk/">Holiday Extras</a>, covering all our digital platforms across a whole load of brands – leading a great team across <a target="_blank" href="http://patternlibrary.holidayextras.com/">design,</a> UI engineering, accessibility and customer experience. I'm lucky to be part of a great team of designers, writers, engineers, PMs and data specialists – amongst others – testing, iterating and optimising our platforms and products.</p>
+          <p>I've got some <a target="_blank" href="https://dribbble.com/kevinbennett">work on Dribbble,</a> some previous work at <a target="_blank" href="https://www.saga.co.uk/membership">Saga</a> and I write words <a target="_blank" href="https://twitter.com/bennett_kevin">over on twitter</a> and sometimes <a target="_blank" href="https://medium.com/@kevinalanbennett">on Medium too</a>. I also take <a target="_blank" href="https://www.instagram.com/kevinbennettphotography/">too many photos.</a>
+          </p>
+      </div>
+    </section>
+
+  <hr id="Work" />
+
+  <!-- WORK -->
+  <div class="lead">
+    <h2><span class="blue-label">&nbsp;Work&nbsp;</span></h2>
+    <p>A quick overview of some of the key projects I've been involved in in recent years, and the role I played in delivery each of them.</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <img src="assets\hx-devices.png">
+        </div>
+        <div class="col-lg-4">
+          <h4>Holiday Extras</h4>
+          <p>Leading, implementing and evolving engaging customer experiences and UI foundations for every touch-point across various platforms.</p>
+          <p><a href="http://www.hellomynameiskevin.co.uk/holiday-extras.html">Read more...</a></p>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-lg-4">
+          <h4>Saga Group</h4>
+          <p>Defining engaging products and intuitive functionality, to delight customers and allow them to get the most out of being a Saga customer.</p>
+          <p><a href="http://www.hellomynameiskevin.co.uk/saga.html">Read more...</a></p>
+        </div>
+        <div class="col-lg-8">
+          <img src="assets\saga-devices.png">
+        </div>
+      </div>
+    </div>
+
+    <a class="button button-secondary">See more of my work on Dribbble</a>
+
+  </div>
+
+  <hr id="Experience"/>
+
+  <!-- EXPERIENCE -->
+  <div class="lead">
+    <h2><span class="blue-label">&nbsp;Experience&nbsp;</span></h2>
+    <p>A short history of recent positions.</p>
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="assets\hx-devices.png">
+        </div>
+        <div class="col-md-9">
+          <h4>Design Lead</h4>
+          <label>Holiday Extras</label>
+          <p>Working with a very talented team of Designers and UI engineers, I lead the design strategy and implementation across various brands and territories in the Holiday Extras group. Delivering complex itineraries, inventory and booking flows, ensuring high standards of customer experience and usability, whilst also personalising the experience for every person across both web and app platforms.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="assets\saga-devices.png">
+        </div>
+        <div class="col-md-9">
+          <h4>Digital Product Manager & Design Team&nbsp;Lead</h4>
+          <label>Saga Group</label>
+          <p>Here I collaborated with stakeholders and delivery teams to define strategic initiatives and prioritise product features and enhancements to create engaging platforms and products for Saga customers – driving loyalty, re-engagement, and retention. I worked as part of the team on launch and later defining the continued evolution of Possibilities – Saga's membership program – leading both the design and customer experience, developing new functionality around search, voucher redemption, product integration, and navigation.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="assets\saga-devices.png">
+        </div>
+        <div class="col-md-9">
+          <h4>Senior Designer</h4>
+          <label>Saga Group</label>
+          <p>Whilst in this role, I was responsible for designing digital experiences and UI across a wide range of products and functions. Working within a number of teams across the Saga Group to ensure both user and business needs were met, making complicated products and services clear and easy to use.</p>
+        </div>
+      </div>
+    </div>
+
+    <a class="button button-secondary" href="https://www.linkedin.com/in/kevin-bennett-aab38338" target="_blank">Visit my full profile</a>
+
 	</div>
 
-	<div class="hr-short"><hr /></div>
+  <hr id="Playbook"/>
 
-	<div class="main">
-		<p>I'm a Digital Product and UI Designer – creating digital experiences that are intuitive for real people and making complex processes easy to use.</p>
-		<p>Right now, I'm Design Lead at <a href="https://www.holidayextras.co.uk/">Holiday Extras</a>, covering all our digital platforms across a whole load of brands – leading a great team across <a target="_blank" href="http://patternlibrary.holidayextras.com/">design,</a> UI engineering, accessibility and customer experience. I'm lucky to be part of a great team of designers, writers, engineers, PMs and data specialists – amongst others – testing, iterating and optimising our platforms and products.</p>
-		<p>I've got some <a target="_blank" href="https://dribbble.com/kevinbennett">work on Dribbble,</a> some previous work at <a target="_blank" href="https://www.saga.co.uk/membership">Saga</a> and I write words <a target="_blank" href="https://twitter.com/bennett_kevin">over on twitter</a> and sometimes <a target="_blank" href="https://medium.com/@kevinalanbennett">on Medium too</a>. I also take <a target="_blank" href="https://www.instagram.com/kevinbennettphotography/">too many photos.</a></p>
-	</div>
+  <!-- PLAYBOOK -->
+  <section class="lead">
+    <h2><span class="blue-label">&nbsp;Playbook&nbsp;</span></h2>
+    <div>
+      <p><strong>Research. Define. Ideate. Test. Iterate. Repeat.</strong></p>
+      <p>There are so many ways to approach design, many of them well documented across Medium and Twitter, all offering varying methods and approaches, all with various degrees of influence from the likes of Google, Airbnb or any number of other tech companies that have gone (and blogged or been blogged) before them.</p>
+      <p>One thing they all have in common though, is that the tools and processes they use, in the way they use them, is unique to each designer or organisation.</p>
+    </div>
+    <div class="row justify-content-md-start">
+      <div class="note col-lg-6">
+        <span>Strong opinions, loosely held.</span>
+      </div>
+    </div>
+    <div>
+      <p>In that vain, I wanted to document how I approach the design process – the steps I take and the tools and methods I use to try to find the best solutions for product and design projects. These processes and this document will change and evolve over time I'm sure, but for now this is how I do things.</p>
+    </div>
+    <div>
+      <a href="https://www.notion.so/My-Design-Playbook-3afaa32261134436af4a5b7a44ebdba6" target="_blank" class="button button-secondary">Read my design playbook <i class="fas fa-external-link-alt"></i></a>
+    </div>
+	</section>
 
-	<div class="panel-blue">
+  <div class="panel-blue">
 		<div>
-			<h2 style="color: #fff;">Want to say &lsquo;Hello&rsquo;? It&nbsp;would be great to hear from&nbsp;you</h2>
+			<h2>Want to say &lsquo;Hello&rsquo;? It&nbsp;would be great to hear from&nbsp;you</h2>
 		</div>
 		<div>
-			<a class="button button-white" target="_blank" href="https://www.linkedin.com/in/kevin-bennett-aab38338/">Contact me on Linkedin</a>
-			<a class="button button-white" target="_blank" href="https://twitter.com/bennett_kevin">Message me on Twitter</a>
+			<a class="button button-secondary" target="_blank" href="https://www.linkedin.com/in/kevin-bennett-aab38338/">Contact me on Linkedin</a>
+			<a class="button button-secondary" target="_blank" href="https://twitter.com/bennett_kevin">Message me on Twitter</a>
 		</div>
 	</div>
 
 	<div class="footer">
+    <p>I believe good designers should be able to code – I just wish <a target="_blank" href="https://github.com/kevinbennett-44">I was better at it</a> :(</p>
 		<label>© Kevin Bennett 2020</label>
 	</div>
 </div>
