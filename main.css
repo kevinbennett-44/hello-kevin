@@ -18,7 +18,7 @@ body {
 
 .lead {
 	font-family: 'Be Vietnam', sans-serif;
-	max-width: 960px;
+	max-width: 960px !important;
 	margin-top: 80px;
 	margin-bottom: 50px;
 
@@ -28,7 +28,7 @@ body {
 	font-family: 'Be Vietnam', sans-serif;
 	margin-left: 20%;
 	margin-right: 20%;
-	max-width: 960px;
+	max-width: 960px !important;
 	margin-top: 60px;
 }
 
@@ -58,9 +58,9 @@ body {
 }
 
 .nav-link {
-	font-size: 0.9em !important;
-	line-height: 160% !important;
-	color: #0065FF !important;
+	font-size: 0.9em;
+	line-height: 160%;
+	color: #0065FF;
 	b ackground: -webkit-linear-gradient(top, transparent 0%, transparent 50%, #c5e3f6 50%, #c5e3f6 100%);
 	margin: 0.4em;
 }
@@ -95,7 +95,7 @@ h1 {
 
 @media screen and (max-width: 800px) {
 h1	{
-		font-size: 3.4em;
+		font-size: 2.4em;
 	}
 }
 
@@ -107,7 +107,6 @@ h2 {
 	line-height: 1.1em;
 	margin-top: 1.4em;
 	margin-bottom: 1.3em;
-	margin-left: 1e m;
 	color: #000;
 }
 
@@ -150,7 +149,7 @@ p {
 	font-family: 'Be Vietnam', sans-serif;
 	font-weight: 400;
 	letter-spacing: -0.01em;
-	font-size: 0.9em;
+	font-size: 1em;
 	line-height: 160%;
 	margin-top: 10px;
 	color: #202020;
@@ -173,7 +172,7 @@ p {
 	font-family: 'Be Vietnam', sans-serif;
 	font-weight: 400;
 	letter-spacing: -0.01em !important;
-	font-size: 0.9em !important;
+	font-size: 1em !important;
 	line-height: 160% !important;
 	color: #202020;
 	padding-top: 10px;
