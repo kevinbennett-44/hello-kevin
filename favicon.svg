@@ -3,11 +3,11 @@
     <title>favicon</title>
     <style>
         path {
-            fill: #0031B7;
+            fill: #0065FF;
         }
         @media (prefers-color-scheme: dark) {
             path {
-                fill: #ffeffe;
+                fill: #c5e3f6;
             }
         }
     </style>s
