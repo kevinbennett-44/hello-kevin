@@ -34,6 +34,12 @@ body {
 	max-width: 960px;
 }
 
+@media screen and (max-width: 992px) {
+	.container	{
+		max-width: 80%;
+	}
+}
+
 .bg-delight	{
 	background-color: #c5e3f6;
 }
@@ -103,7 +109,7 @@ h1 {
 	font-size: 4.4em;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
 .big	{
 		font-size: 2.4em;
 	}
@@ -120,10 +126,11 @@ h2 {
 	color: #000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 992px) {
 	h2	{
 		font-weight: 400;
 		font-size: 1.2em;
+		line-height: 1.5em;
 	}
 }
 
