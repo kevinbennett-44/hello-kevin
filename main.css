@@ -16,19 +16,35 @@ body {
 	}
 }
 
-.site-padding {
+/*.site-padding {
 	max-width: 960px !important;
 	margin-top: 80px;
 	margin-bottom: 50px;
+}*/
 
-}
-
-.main {
+/*.main {
 	font-family: 'Be Vietnam', sans-serif;
 	margin-left: 20%;
 	margin-right: 20%;
 	max-width: 960px !important;
 	margin-top: 60px;
+}*/
+
+.container	{
+	max-width: 960px;
+}
+
+.bg-delight	{
+	background-color: #c5e3f6;
+}
+
+.full-width	{
+	padding-top: 25px;
+	padding-bottom: 50px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	background-color: #c5e3f6 !important;
+	/*box-shadow: 0px 65px 55px -50px rgba(0, 0, 0, 0.2);*/
 }
 
 @media screen and (max-width: 600px) {
@@ -68,7 +84,7 @@ body {
 	font-family: 'Be Vietnam', sans-serif;
 	padding: 1% 5% 3% 5%;
 	background-color: #c5e3f6;
-	border-radius: 2px;
+	border-radius: 8px;
 	box-shadow: 0px 65px 45px -20px rgba(0, 0, 0, 0.2);
 	margin-top: 70px;
 }
@@ -77,15 +93,18 @@ h1 {
 	font-family: 'EB Garamond', serif;
 	font-weight: 800;
 	letter-spacing: -0.02em;
-	font-size: 3.4em;
 	line-height: 100%;
 	margin-top: 0.5em;
 	margin-bottom: 1.1em;
 	color: #0065FF;
 }
 
+.big	{
+	font-size: 4.4em;
+}
+
 @media screen and (max-width: 800px) {
-h1	{
+.big	{
 		font-size: 2.4em;
 	}
 }
@@ -176,7 +195,7 @@ p {
 label {
 	font-weight: 400;
 	letter-spacing: -0.01em;
-	font-size: 0.8em;
+	font-size: 0.9em;
 	line-height: 120%;
 	margin-top: 0px;
 }
@@ -190,7 +209,7 @@ label {
 }
 
 img {
-	background-color: #fff;
+	background-color: none;
 	margin-left: 0;
 	margin-top: 10px;
 	width: 100%;
@@ -302,6 +321,7 @@ hr {
 	width: 70px;
 	height: auto;
 	box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+	margin-top: 80px;
 }
 
 .col {
