@@ -398,3 +398,11 @@ ul {
 	background-color: #c5e3f6;
 	border: 0;
 }*/
+
+.navbar-toggler.collapsed .close-icon {
+      display: none;
+   }
+
+   .navbar-toggler:not(.collapsed) .navbar-toggler-icon {
+      display: inline;
+   }
