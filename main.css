@@ -203,7 +203,7 @@ label {
 	font-weight: 400;
 	letter-spacing: -0.01em;
 	font-size: 0.9em;
-	line-height: 120%;
+	line-height: 140%;
 	margin-top: 0px;
 }
 
@@ -324,11 +324,18 @@ hr {
 
 .avatar {
 	border-radius: 50%;
-	min-width: 70px;
-	width: 70px;
+	min-width: 100px;
+	width: 100px;
 	height: auto;
-	box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.5);
+	box-shadow: 0px 15px 20px -5px rgba(0, 0, 0, 0.2);
 	margin-top: 80px;
+}
+
+@media screen and (max-width: 992px)	{
+	.avatar	{
+		min-width: 70px;
+		width: 70px;
+	}
 }
 
 .col {
