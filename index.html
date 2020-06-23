@@ -1,16 +1,25 @@
 <!doctype html>
 <html>
 <head>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169703785-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <meta name="theme-color" content="#ffeffe">
+  <title>Kevin Bennett</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="mask-icon" href="mask-icon.svg" color="#0065FF">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="manifest.json">
 
-  gtag('config', 'UA-169703785-1');
-</script>
-	
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169703785-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-169703785-1');
+  </script>
+
 <!--FACEBOOK-->
 <meta property="og:url" content="http://www.hellomynameiskevin.co.uk" />
 <meta property="og:type" content="website" />
@@ -21,27 +30,19 @@
 <meta property="og:image:width" content="1280">
 <meta property="og:image:height" content="640">
 
-<meta charset="UTF-8">
-<meta content="width=device-width, initial-scale=1" name="viewport" />
-<meta name="theme-color" content="#ffeffe">
-<title>Kevin Bennett</title>
-<link rel="icon" href="favicon.svg">
-<link rel="mask-icon" href="mask-icon.svg" color="#0065FF">
-<link rel="apple-touch-icon" href="apple-touch-icon.png">
-<link rel="manifest" href="manifest.json">
-<script src="https://kit.fontawesome.com/1877932030.js" crossorigin="anonymous"></script>
-
 <!-- JS -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="index.js"></script>
+<script src="https://kit.fontawesome.com/1877932030.js" crossorigin="anonymous"></script>
 
 <!-- CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;600;700&family=EB+Garamond:wght@400;800&display=swap" rel="stylesheet">
 <link href="main.css" rel="stylesheet" type="text/css">
-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
+<link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
 <!-- favicon -->
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
@@ -62,7 +63,7 @@
 <body>
 
   <!-- NAV -->
-  <nav class="navbar navbar-expand-sm fixed-top navbar-light bg-light">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
     <a class="navbar-brand" href="http://www.hellomynameiskevin.co.uk/">&nbsp;Kevin Bennett&nbsp;</a>
     <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -80,7 +81,7 @@
           <a class="nav-link" href="#Experience">Experience</a>
         </li>
       </ul>
-      <ul class="navbar-nav justify-content-start flex-row">
+      <ul class="navbar-nav justify-content-start flex-row mr-3">
         <li class="nav-item" data-toggle="tooltip" data-placement="left" title="Twitter">
           <a class="nav-link" href="https://twitter.com/bennett_kevin" target="_blank"><i class="fas fa-at"></i></a>
         </li>
@@ -93,13 +94,15 @@
           <a class="nav-link" href="https://www.instagram.com/kevinbennettphotography/" target="_blank"><i class="fas fa-camera"></i></a>
         </li>
       </ul>
+      <div class="switch">Dark mode:<span class="inner-switch">OFF</span></div>
     </div>
   </nav>
 
   <!-- HEADER SECTION -->
   <section>
     <div class="container">
-      <img class="avatar" src="assets/avatar.png" >
+      <img class="avatar" src="assets/avatar.png" alt="Kevin Bennett" id="avatar-light">
+      <img class="avatar" src="assets/avatar-dark.png" alt="Kevin Bennett" id="avatar-dark" style="display: none;">
       <h1 class="big">Hello.<br>My name is Kevin.</h1>
 
       <div class="hr-short"><hr /></div>
@@ -107,7 +110,7 @@
       <p>I'm a Digital Product and UI Designer – creating digital experiences that are intuitive for real people and making complex processes easy to use.</p>
       <p>Right now, I'm Design Lead at <a href="https://www.holidayextras.co.uk/">Holiday Extras</a>, covering all our digital platforms across a whole load of brands – leading a great team across <a target="_blank" href="http://patternlibrary.holidayextras.com/">design,</a> UI engineering, accessibility and customer experience. I'm lucky to be part of a great team of designers, writers, engineers, PMs and data specialists – amongst others – testing, iterating and optimising our platforms and products.</p>
       <p>I've got some <a target="_blank" href="https://dribbble.com/kevinbennett">work on Dribbble,</a> some previous work at <a target="_blank" href="https://www.saga.co.uk/membership">Saga</a> and you can find me <a target="_blank" href="https://twitter.com/bennett_kevin">over on twitter</a> and sometimes <a target="_blank" href="https://medium.com/@kevinalanbennett">on Medium too</a>. I also take <a target="_blank" href="https://www.instagram.com/kevinbennettphotography/">too many photos.</a></p>
-      <label class="p-4 mt-3 bg-light" style="border-radius: 10px;"><span class="text-primary"><i class="fas fa-check-circle"></i></span>&nbsp;&nbsp;Available for work and general design goodness – <a href="https://twitter.com/bennett_kevin" target="_blank">say hello</a> 👋</label>
+      <label class="p-4 mt-3 bg-light" style="border-radius: 10px;"><span class="text-primary bg-light"><i class="fas fa-check-circle bg-light"></i></span>&nbsp;&nbsp;Available for work and general design goodness – <a class="bg-light" href="https://twitter.com/bennett_kevin" target="_blank">say hello</a> 👋</label>
     </div>
   </section>
 
@@ -166,10 +169,11 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
-          <img src="assets/strong-opinions.svg" alt="Strong opinions, loosely held."></img>
+          <img src="assets/strong-opinions-light.svg" alt="Strong opinions, loosely held." id="opinions-light"></img>
+          <img src="assets/strong-opinions-dark.svg" alt="Strong opinions, loosely held." id="opinions-dark" style="display: none;"></img>
         </div>
         <div class="col-lg-6">
-          <h2><span class="blue-label" style="background: -webkit-linear-gradient(top, transparent 0%, transparent 82%, #fff 82%, #fff 100%);">&nbsp;Playbook&nbsp;</span></h2>
+          <h2><span class="blue-label-light" style="">&nbsp;Playbook&nbsp;</span></h2>
           <p><strong>Research. Define. Ideate. Test. Iterate. Repeat.</strong></p>
           <p>There are so many ways to approach design, many of them well documented across Medium and Twitter, all offering varying methods and approaches, all with various degrees of influence from the big tech companies that have gone (and blogged or been blogged) before them.</p>
           <p>One thing they all have in common though, is that the tools and processes they use, in the way they use them, is unique to each designer or organisation.</p>
@@ -227,7 +231,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 panel-blue">
+      <div class="col-md-12 panel">
         <div>
           <h2>Want to say &lsquo;Hello&rsquo;? It&nbsp;would be great to hear from&nbsp;you</h2>
           <a class="button button-secondary" target="_blank" href="mailto:kevinalanbennett@gmail.com">Email me <i class="fas fa-external-link-alt"></i></a>
@@ -243,6 +247,8 @@
       <label>© Kevin Bennett 2020</label>
     </div>
 	</div>
-<!--</div>-->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>

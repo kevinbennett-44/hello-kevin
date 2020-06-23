@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+
+.navbar-brand {
+	color: #faf4e6 !important;
+	background: none;
+  text-decoration: none;
+}
+
+.navbar-brand:hover {
+	text-decoration: underline;
+}
+
+.nav-link {
+	text-decoration: none;
+  background-color: none;
+}
+
+.nav-link:hover {
+	text-decoration: underline;
+}
+
+.navbar-toggler {
+  background-color: #faf4e6;
+}
+
+h1 {
+	color: #faf4e6;
+}
+
+h2 {
+	color: #faf4e6;
+}
+
+h3 {
+	color: #faf4e6;
+}
+
+h4 {
+	color: #faf4e6;
+}
+
+p {
+	color: #faf4e6;
+}
+
+a {
+  color: #faf4e6 !important;
+  text-decoration: underline;
+}
+
+label{
+  color: #faf4e6;
+}
+
+.text-primary {
+  color: #faf4e6 !important;
+}
+
+hr{
+  border-color: #faf4e6;
+}
+
+.button {
+  background-color: #3C3B3A;
+  border: 1px solid #faf4e6 !important;
+}
+
+.button:hover {
+	text-decoration: underline;
+  color: #faf4e6 !important;
+  border: 1px solid #0065FF !important;
+}
+
+.button-secondary {
+  background-color: #3C3B3A;
+	border: 1px solid #faf4e6 !important;
+}
+
+.button-secondary:hover {
+	text-decoration: underline !important;
+  color: #faf4e6 !important;
+  border: 1px solid #0065FF !important;
+}
+
+.inner-switch {
+  border: 1px solid #faf4e6;
+}
+
+.blue-label {
+  background: none;
+}
+
+.blue-label-light {
+	background: none;
+}
+
+.full-width	{
+	background-color: #333 !important;
+}
+
+.bg-light {
+  background: #3C3B3A !important;
+}
+
+.panel {
+	background-color: #3C3B3A;
+}
