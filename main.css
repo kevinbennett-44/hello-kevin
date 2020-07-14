@@ -61,15 +61,15 @@ body {
 	font-weight: 600;
 	letter-spacing: -0.01em !important;
 	font-size: 1em !important;
-	line-height: 160% !important;
+	line-height: 100% !important;
 	color: #202020 !important;
-	background: -webkit-linear-gradient(top, transparent 0%, transparent 60%, #c5e3f6 60%, #c5e3f6 100%);
 	margin: 0.4em;
+	padding-top: 2px;
 }
 
 .nav-link {
 	font-size: 0.9em;
-	line-height: 160%;
+	line-height: 100%;
 	color: #0065FF;
 	b ackground: -webkit-linear-gradient(top, transparent 0%, transparent 50%, #c5e3f6 50%, #c5e3f6 100%);
 	margin: 0.4em;
@@ -106,19 +106,19 @@ h1 {
 
 h2 {
 	font-family: 'Be Vietnam', sans-serif;
-	font-weight: 600;
+	font-weight: 800;
 	letter-spacing: -0.02em;
-	font-size: 1.4em;
-	line-height: 1.1em;
-	margin-top: 1.4em;
+	font-size: 1.9em;
+	line-height: 1.3em;
+	margin-top: 1.2em;
 	margin-bottom: 1.3em;
-	color: #000;
+	color: #3C3B3A;
 }
 
 @media screen and (max-width: 992px) {
 	h2	{
-		font-weight: 400;
-		font-size: 1.2em;
+		font-weight: 800;
+		font-size: 1.6em;
 		line-height: 1.5em;
 	}
 }
@@ -131,7 +131,7 @@ h3 {
 	line-height: 1.3em;
 	margin-top: 50px;
 	margin-bottom: 10px;
-	color: #000;
+	color: #3C3B3A;
 }
 
 h4 {
@@ -142,7 +142,7 @@ h4 {
 	line-height: 1.2em;
 	margin-top: 15px;
 	margin-bottom: 0;
-	color: #000;
+	color: #3C3B3A;
 	display: block;
 }
 
@@ -153,7 +153,7 @@ p {
 	font-size: 1.1em;
 	line-height: 160%;
 	margin-top: 10px;
-	color: #202020;
+	color: #3C3B3A;
 }
 
 .note {
@@ -339,7 +339,7 @@ ul {
 	list-style-type: circle;
 }
 
-.blue-label {
+/*.blue-label {
 	font-weight: 600;
 	font-size: 1em;
 	padding-bottom: 3px;
@@ -353,7 +353,7 @@ ul {
 	padding-bottom: 3px;
 	background: -webkit-linear-gradient(top, transparent 0%, transparent 82%, #fff 82%, #fff 100%);
 	padding-top: 2em;
-}
+}*/
 
 .navbar-toggler.collapsed .close-icon {
   display: none;
