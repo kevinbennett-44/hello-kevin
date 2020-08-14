@@ -347,6 +347,12 @@ ul {
 	list-style-type: circle;
 }
 
+li	{
+	font-size: 1.1em;
+	line-height: 160%;
+	padding-bottom: .5em;
+}
+
 /*.blue-label {
 	font-weight: 600;
 	font-size: 1em;
@@ -406,4 +412,25 @@ svg	{
     background-color: #222 !important;
     color: #faf4e6;
     border-color: #faf4e6;
+}
+
+.highlight	{
+	background-color: #c5e3f6;
+}
+
+figcaption {
+	font-weight: 400;
+	letter-spacing: -0.01em;
+	font-size: 0.9em;
+	line-height: 140%;
+	margin-top: 0px;
+}
+
+.callout	{
+	border-left: 5px solid black;
+}
+
+.tag{
+	border-radius: 20px;
+	font-size: 0.8em;
 }
