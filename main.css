@@ -64,15 +64,17 @@ body {
 	line-height: 100% !important;
 	color: #202020 !important;
 	margin: 0.4em;
-	padding-top: 2px;
 }
 
 .nav-link {
-	font-size: 0.9em;
-	line-height: 100%;
+	font-size: 0.9em !important;
+	line-height: 100% !important;
 	color: #0065FF;
-	b ackground: -webkit-linear-gradient(top, transparent 0%, transparent 50%, #c5e3f6 50%, #c5e3f6 100%);
 	margin: 0.4em;
+}
+
+.nav-item	{
+	padding: 0;
 }
 
 .panel {
