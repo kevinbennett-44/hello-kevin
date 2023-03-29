@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+.navbar {
+	background: #3C3B3A;
+}
 
 .navbar-brand {
 	color: #faf4e6 !important;
-	background: none;
   text-decoration: none;
 }
 
@@ -51,6 +53,7 @@ a {
 
 label{
   color: #faf4e6;
+  background-color: #3C3B3A !important;
 }
 
 .text-primary {

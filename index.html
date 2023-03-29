@@ -49,11 +49,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
     <style>
         path {
-            fill: #0065FF;
+            fill: none;
         }
         @media (prefers-color-scheme: dark) {
             path {
-                fill: #c5e3f6;
+                fill: none;
             }
         }
     </style>
@@ -64,7 +64,7 @@
 <body>
 
   <!-- NAV -->
-  <nav class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+  <nav class="navbar navbar-expand-md fixed-top navbar-light">
     <span class="nav-item"><a class="navbar-brand" href="http://www.hellomynameiskevin.co.uk/">Kevin Bennett</a></span>
     <button class="navbar-toggler collapsed border-0" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -72,9 +72,9 @@
    </button>
     <div class="collapse navbar-collapse" id="collapsingNavbar">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item pt-1">
+        <!--<li class="nav-item pt-1">
           <a class="nav-link" href="#Work">Work</span></a>
-        </li>
+        </li>-->
         <li class="nav-item pt-1">
           <a class="nav-link" href="#Playbook">Playbook</a>
         </li>
@@ -103,20 +103,19 @@
   <!-- HEADER SECTION -->
   <section>
     <div class="container">
-      <img class="avatar" src="assets/avatar.png" alt="Kevin Bennett" id="avatar-light">
-      <img class="avatar" src="assets/avatar-dark.png" alt="Kevin Bennett" id="avatar-dark" style="display: none;">
-      <h1 class="big">Hello.<br>My name is Kevin&nbsp;and I'm&nbsp;a&nbsp;<!--<span class="strikethrough">stereotypical</span> <span class="strikethrough">cliché</span> <span class="strikethrough">generic</span> resolute*--> Product&nbsp;Designer and Design&nbsp;Lead.</h1>
-            <!--<label><strong>*Resolute</strong> <em>[rez-uh-loot]</em> Adjective. Firmly resolved, adaptable and/or determined... probably</label>-->
+      <!-- <img class="avatar" src="assets/avatar.png" alt="Kevin Bennett" id="avatar-light">
+      <img class="avatar" src="assets/avatar-dark.png" alt="Kevin Bennett" id="avatar-dark" style="display: none;">-->
+      <h1 class="big">Hello.<br>My name is Kevin&nbsp;and I'm&nbsp;a&nbsp;Product&nbsp;Designer and&nbsp;Design&nbsp;Lead.</h1>
       <div class="hr-short"><hr /></div>
 
-      <p>So, yeah, about that ☝️ ... generic looking website but a less than generic Product Designer and Design Lead. I&nbsp;really do love creating digital experiences that are intuitive for real people and making complex processes easy to navigate.</p>
-      <p>Right now, I'm Design Lead at <a href="https://www.holidayextras.co.uk/">Holiday Extras</a>, covering all our digital platforms across a whole load of brands – leading a great team across <a target="_blank" href="http://patternlibrary.holidayextras.com/">design,</a> UI engineering, accessibility and customer experience. I'm lucky to be part of a great team of designers, writers, engineers, PMs and data specialists – amongst others – testing, iterating and optimising our platforms and products.</p>
-      <p>I publish design resources to <a href="https://figma.com/@kevinbennett" target="_blank">the Figma community</a> and I've got some <a target="_blank" href="https://dribbble.com/kevinbennett">work on Dribbble.</a> Some of my previous work can still be seen at <a target="_blank" href="https://www.saga.co.uk/membership">Saga</a> and you can find me <a target="_blank" href="https://twitter.com/bennett_kevin">over on twitter</a> and sometimes <a target="_blank" href="https://medium.com/@kevinalanbennett">on Medium too</a>. I also take <a target="_blank" href="https://www.instagram.com/kevinbennettphotography/">way too many photos.</a></p>
-      <label class="p-4 mt-3 bg-light" style="border-radius: 10px;"><span class="text-primary bg-light"><i class="fas fa-check-circle bg-light"></i></span>&nbsp;&nbsp;Available for work and general design goodness – <a class="bg-light" href="https://twitter.com/bennett_kevin" target="_blank">say hello</a> 👋</label>
+      <p>...creating <a target="_blank" href="https://medium.com/@kevinalanbennett/ethical-design-the-implications-of-ai-generated-content-2098e960ebc5">ethical</a>, digital experiences that are intuitive for real people, and making complex processes easy to navigate.</p>
+      <p>Right now, I'm Senior Product Designer at <a target='_blank' href="https://www.nearform.com/"> NearForm</a>, working with a diverse portfolio of global clients, facilitating discovery and design discussion, and delivering smart design solutions. Previously Design Lead at <a target="_blank" href="https://www.holidayextras.co.uk/">Holiday Extras</a>, leading a talented team of <a target="_blank" href="http://patternlibrary.holidayextras.com/">designers,</a> UI engineers, accessibility and customer experience specialists.</p>
+      <p>I'm a member of the <a href="https://figma.com/@kevinbennett" target="_blank">Figma Beta community</a>, you can find me on <a rel="me" target="_blank" href="https://mastodonapp.uk/@kevinbennett">Mastodon</a> (also on <a target="_blank" href="https://twitter.com/bennett_kevin">Twitter whilst it lasts</a>), and sometimes <a target="_blank" href="https://medium.com/@kevinalanbennett">on Medium too</a>. I also take <a target="_blank" href="https://www.instagram.com/kevinbennettphotography/">way too many photos.</a></p>
+      <label class="p-4 mt-3 mb-5" style="border-radius: 10px; background-color: #fff;"><span class="text-primary"><i class="fas fa-check-circle"></i></span>&nbsp;&nbsp;Always happy to discuss work and  general design goodness – <a class="" href="https://twitter.com/bennett_kevin" target="_blank">say hello</a> 👋</label>
     </div>
   </section>
 
-  <!-- WORK -->
+  <!-- WORK
   <section>
     <div class="container">
       <hr id="Work" />
@@ -134,13 +133,13 @@
               <h4 style="display: none;">Holiday Extras</h4>
               <p>Leading, implementing and evolving engaging customer experiences and UI foundations for every touch-point across various platforms.</p>
               <p class="mt-2 mb-4"><a href="http://www.hellomynameiskevin.co.uk/holiday-extras.html">Read more...</a></p>
-              <label class="py-1 px-2 mr-1 bg-light tag">UI design</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Design leadership</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">UX design</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Behavioural insight</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">IA</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">UI foundations</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Prototyping</label>
+              <label class="py-1 px-2 mr-1 tag">UI design</label>
+              <label class="py-1 px-2 mr-1 tag">Design leadership</label>
+              <label class="py-1 px-2 mr-1 tag">UX design</label>
+              <label class="py-1 px-2 mr-1 tag">Behavioural insight</label>
+              <label class="py-1 px-2 mr-1 tag">IA</label>
+              <label class="py-1 px-2 mr-1 tag">UI foundations</label>
+              <label class="py-1 px-2 mr-1 tag">Prototyping</label>
             </div>
           </div>
         </div>
@@ -156,14 +155,14 @@
               <h4 style="display: none;">Saga Group</h4>
               <p>Defining engaging products and intuitive functionality, to delight customers and allow them to get the most out of being a Saga customer.</p>
               <p class="mt-2 mb-4"><a href="http://www.hellomynameiskevin.co.uk/saga.html">Read more...</a></p>
-              <label class="py-1 px-2 mr-1 bg-light tag">Product management</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">UX design</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">UI design</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Design leadership</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">IA</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Behavioural insight</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Multi-media production</label>
-              <label class="py-1 px-2 mr-1 bg-light tag">Prototyping</label>
+              <label class="py-1 px-2 mr-1 tag">Product management</label>
+              <label class="py-1 px-2 mr-1 tag">UX design</label>
+              <label class="py-1 px-2 mr-1 tag">UI design</label>
+              <label class="py-1 px-2 mr-1 tag">Design leadership</label>
+              <label class="py-1 px-2 mr-1 tag">IA</label>
+              <label class="py-1 px-2 mr-1 tag">Behavioural insight</label>
+              <label class="py-1 px-2 mr-1 tag">Multi-media production</label>
+              <label class="py-1 px-2 mr-1 tag">Prototyping</label>
             </div>
           </div>
         </div>
@@ -200,7 +199,7 @@
       </div>
 
     <span id="Playbook"></span>
-  </section>
+  </section>-->
 
   <!--PLAYBOOK-->
   <section class="bg-light full-width">
@@ -227,7 +226,8 @@
   <section>
     <div class="container">
       <h2>Experience</h2>
-      <p>A short history of recent positions.</p>
+      <p>Right now, I am working with <a target="_blank" href="https://www.nearform.com/services/digital-product-development/">NearForm</a>, "designing and building future-ready digital products to accelerate transformation and create digital capability", specialising in product and service design within an <a target="_blank" href="https://nearform.notion.site/Ethical-Design-Key-concepts-12c7f2887132479ea187d19770f5c844">inclusive, ethical framework</a> for clients such as the Irish Government, Walmart, and others.</p>
+      <p>Previously...</p>
     </div>
 
     <div class="container">
@@ -290,7 +290,7 @@
   <div class="container">
     <div class="footer">
       <p>&#9889; I believe good designers should be able to code – I just wish <a target="_blank" href="https://github.com/kevinbennett-44">I was better at it</a> :(</p>
-      <label>© Kevin Bennett 2020</label>
+      <label>© Kevin Bennett 2023</label>
     </div>
 	</div>
 

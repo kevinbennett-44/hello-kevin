@@ -15,12 +15,12 @@
 }*/
 
 .background {
-	background-color: #000;
+	background-color: #faf4e6;
 }
 
 body {
 	margin-top: 0px;
-	background-color: #fff;
+	background-color: #faf4e6;
 }
 
 .container	{
@@ -36,9 +36,9 @@ body {
 .full-width	{
 	padding-top: 25px;
 	padding-bottom: 50px;
-	margin-top: 30px;
+	margin-top: 100px;
 	margin-bottom: 50px;
-	background-color: #c5e3f6 !important;
+	background-color: #fff !important;
 	/*box-shadow: 0px 65px 55px -50px rgba(0, 0, 0, 0.2);*/
 }
 
@@ -52,7 +52,7 @@ body {
 
 .navbar {
 	opacity: 1;
-	background: white !important;
+	background: #faf4e6;
 	box-shadow: 0px 25px 45px -20px rgba(0, 0, 0, 0.15);
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .panel {
-	background-color: #c5e3f6;
+	background-color: #fff;
 	border-radius: 10px;
 	box-shadow: 0px 25px 35px -10px rgba(0, 0, 0, 0.2);
 }
@@ -90,12 +90,13 @@ h1 {
 	line-height: 100%;
 	margin-top: 0.5em;
 	margin-bottom: 0.3em;
-	color: #0065FF;
+	color: #333;
 }
 
 .big	{
 	font-size: 4.1em;
 	max-width: 80%;
+	margin-top: 20%;
 }
 
 @media screen and (max-width: 768px) {
@@ -257,8 +258,9 @@ img {
   background-color: #fff;
 	border-style: solid;
   border-width: 1px !important;
-	border-color: #0065FF !important;
+	border-color: #fff !important;
   color: #000;
+  box-shadow: 0px 15px 25px -10px rgba(0, 0, 0, 0.1);
 }
 
 .button-secondary:hover {
@@ -277,7 +279,7 @@ hr {
 
 .hr-short {
   width: 15%;
-	margin-bottom: 40px;
+	margin-bottom: 32px;
 }
 
 .avatar {
@@ -435,4 +437,5 @@ figcaption {
 .tag{
 	border-radius: 20px;
 	font-size: 0.8em;
+	background-color: #fff;
 }
